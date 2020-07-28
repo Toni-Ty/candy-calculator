@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="heading">Candy Store Calculator</h1>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <img class="candy-pic" src="images/choccups.jpg" alt="candy pic">
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img class="candy-pic" src="images/chocolatehearts.png" alt="candy pic">
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img class="candy-pic" src="images/chocbark.jpg" alt="candy pic">
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img class="candy-pic" src="images/assortedcho.jpg" alt="candy pic">
+        </div>
+    </div>
+
+    <div class="candy-disclaimer">
+        <h1>Candy is sold by the ounce!</h1>
+    </div>
+    <div class="candy-options">
+        <p>Assorted Chocolate: $10/oz.</p>
+        <p>Chocolate Bark: $15/oz.</p>
+        <p>Chocolate Peanut Butter Cups: $18/oz.</p>
+        <p>Dark Chocolate Hearts: $12/oz.</p>
+    </div>
+    <div>
+        <form class="form-options">
+            <label for="candy-input">Select your candy</label>
+            <select id="candy-selection">
+                <option value="assorted chocolate">Assorted Chocolate</option>
+                <option value="chocolate bark">Chocolate Bark</option>
+                <option value="chocolate peanut butter cups">Chocolate Peanut Butter Cups</option>
+                <option value="dark chocolate hearts">Dark Chocolate Hearts</option>
+            </select>
+            <br>
+            Enter amount(oz):<input type="text" id="weight-input">
+            <br>
+            <button type="button" id="submit-button" onclick="submitInput()">Submit</button>
+            <div id="result"></div>
+        </form>
+
+        <!-- will add functionality to the cart soon -->
+        <div class="cart-item">
+            <img class="cart-image" src="/images/cart.jpg" alt="cart pic">
+            <button class="btn btn-primary add-item" type="button-cart">ADD TO CART</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -3,5 +3,5 @@
 A calculator designed to calculate candy selections by the ounce.
 
 # Clone this repository
-$ git clone https://github.com/Toni-Ty/candy-calculator.git
-Open the index.html file to run
+* $ git clone https://github.com/Toni-Ty/candy-calculator.git
+* Open the index.html file to run
